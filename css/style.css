@@ -242,12 +242,12 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .contact-card { background: var(--white); border-radius: var(--radius-xl); padding: 36px 24px; text-align: center; border: 1px solid var(--gray-200); transition: var(--transition); }
 .contact-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
 .contact-card.highlight { background: linear-gradient(135deg, var(--whatsapp), #1eba55); border-color: transparent; }
-.contact-card.highlight h4, .contact-card.highlight p, .contact-card.highlight .cc-value { color: var(--white); }
+.contact-card.highlight h3, .contact-card.highlight p, .contact-card.highlight .cc-value { color: var(--white); }
 .cc-icon { width: 56px; height: 56px; background: var(--gray-100); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px; }
 .cc-icon i { width: 24px; height: 24px; color: var(--primary); }
 .contact-card.highlight .cc-icon { background: rgba(255,255,255,0.2); }
 .contact-card.highlight .cc-icon svg { fill: var(--white); }
-.contact-card h4 { font-size: 1rem; font-weight: 800; color: var(--gray-900); margin-bottom: 8px; }
+.contact-card h3 { font-size: 1rem; font-weight: 800; color: var(--gray-900); margin-bottom: 8px; }
 .cc-value { display: block; font-size: 1.2rem; font-weight: 800; color: var(--primary); margin-bottom: 6px; direction: ltr; }
 .contact-card p { font-size: 0.85rem; color: var(--gray-600); }
 
@@ -263,7 +263,7 @@ button { border: none; background: none; cursor: pointer; font-family: inherit; 
 .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr; gap: 60px; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); }
 .footer-brand p { margin-top: 16px; font-size: 0.9rem; line-height: 1.8; max-width: 340px; }
 .footer-brand .logo { margin-bottom: 8px; }
-.footer-col h4 { color: var(--white); font-size: 1rem; font-weight: 800; margin-bottom: 20px; }
+.footer-col h3 { color: var(--white); font-size: 1rem; font-weight: 800; margin-bottom: 20px; }
 .footer-col ul { display: flex; flex-direction: column; gap: 10px; }
 .footer-col li { font-size: 0.9rem; display: flex; align-items: center; gap: 6px; }
 .footer-col a { transition: var(--transition); }
